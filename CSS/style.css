@@ -2,18 +2,46 @@ body{
     margin: 0;
     background-color: midnightblue;
 }
+@font-face {
+    font-family: Nunito;
+    src: url(../Fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
 .title{
+    top: 5vh;
+    font-family: Nunito;
     text-align: center;
     background-color: aqua;
     margin: 0;
     width: 50vw;
     left: 25vw;
     right: 25vw;
-    position: absolute;
+    height: 10vh;
+    position: fixed;
 }
-.triangle1{
+.triangle{
+    top: 5vh;
     position: absolute;
-    background-color: aquamarine;
-    top: 0px;
-    
+    width: 0px;
+    height: 0px;
+    border-top: 5vh solid transparent;
+    border-bottom: 5vh solid transparent;
+    border-left: 3vw solid aqua;
+    left: 75vw;
+    padding: 0px;
+}
+.triangle2{
+    top: 5vh;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 5vh solid transparent;
+    border-bottom: 5vh solid transparent;
+    border-right: 3vw solid aqua;
+    right: 75vw;
+    padding: 0;
+}
+.scroller{
+    position: absolute;
+    top: 1000vh;
 }
