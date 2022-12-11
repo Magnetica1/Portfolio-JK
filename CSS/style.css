@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    background-color: midnightblue;
+    background-image: url(../Img/Background-Waves.jpg);
+    background-size:cover;
 }
 @font-face {
     font-family: Nunito;
