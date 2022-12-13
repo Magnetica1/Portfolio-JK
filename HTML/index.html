@@ -28,26 +28,9 @@
     <h1 class="title fade-scroll">Jack Kilow</h1>
     <div class="triangle2 fade-scroll"></div>
 </header>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script type="text/javascript">
-    $(function () {
-        var documentEl = $(document),
-            fadeElem = $('.fade-scroll');
-        documentEl.on('scroll', function () {
-            var currScrollPos = documentEl.scrollTop();
-            fadeElem.each(function () {
-                var $this = $(this),
-                    elemOffsetTop = $this.offset().top;
-                if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos - elemOffsetTop) / 200);
-            });
-        });
-    });        
-</script>
 <body>
 <h2 class="subtitle">About me</h2>
-<img src="../Img/" alt="Mybeautifulface" class="pfp">
-<p></p>
+<p id="abtme" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error enim explicabo minima debitis sed ad. Accusamus ex molestiae dolorum. Debitis ab nemo saepe iure eaque.</p>
 <h1 class="scroller">HeLLO</h1>
 
 </body>

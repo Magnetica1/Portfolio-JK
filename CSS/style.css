@@ -7,19 +7,24 @@ body{
     font-family: Nunito;
     src: url(../Fonts/Nunito/Nunito-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: Alata;
+    src: url(../Fonts/Alata-Regular.ttf);
+}
 
 .title{
     top: 5vh;
     font-family: Nunito;
     font-size: 7.5vh;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     margin: 0;
     width: 50vw;
     left: 25vw;
     height: 10vh;
     position: fixed;
     font-size: 9vh;
+    color: #a11515;
 }
 .triangle{
     top: 5vh;
@@ -28,7 +33,7 @@ body{
     height: 0px;
     border-top: 5vh solid transparent;
     border-bottom: 5vh solid transparent;
-    border-left: 3vw solid aqua;
+    border-left: 3vw solid rgb(255, 255, 255);
     left: 75vw;
     padding: 0px;
 }
@@ -39,7 +44,7 @@ body{
     height: 0px;
     border-top: 5vh solid transparent;
     border-bottom: 5vh solid transparent;
-    border-right: 3vw solid aqua;
+    border-right: 3vw solid rgb(255, 255, 255);
     left: 22.009vw;
     padding: 0;
 }
@@ -53,9 +58,34 @@ body{
     height: 20%;
 }
 .subtitle{
-    color: white;
+    color: #a11515;
     font-family: nunito;
-    font-size: 6vh;
+    font-size: 5.5vh;
     position: absolute;
-    top: 15vh;
+    top: 20vh;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5vh;
+    left: 0.5vw;
+    padding: 0;
+}
+.para{
+    position: absolute;
+    margin: 0;
+    color: white;
+    font-family: Alata;
+    font-size: 2.5vh;
+    
+}
+
+#abtme {
+    top: 28vh;
+
+}
+
+pallete{
+    color: #a11515ff;
+    color: #ffffffff;
+    color: #1a1a1aff;
+    color: #0b0921ff;
 }
