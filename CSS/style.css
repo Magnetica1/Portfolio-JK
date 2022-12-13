@@ -19,6 +19,7 @@ body{
     right: 25vw;
     height: 10vh;
     position: fixed;
+    font-size: 9vh;
 }
 .triangle{
     top: 5vh;
@@ -45,4 +46,16 @@ body{
 .scroller{
     position: absolute;
     top: 1000vh;
+}
+.pfp{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
+.subtitle{
+    color: white;
+    font-family: nunito;
+    font-size: 6vh;
+    position: absolute;
+    top: 15vh;
 }
