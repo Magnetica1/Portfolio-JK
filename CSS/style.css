@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(../Img/Background-Waves.jpg);
+    background-image: url(../Img/Background-Waves2.svg);
     background-size:cover;
 }
 @font-face {
@@ -11,12 +11,12 @@ body{
 .title{
     top: 5vh;
     font-family: Nunito;
+    font-size: 7.5vh;
     text-align: center;
     background-color: aqua;
     margin: 0;
     width: 50vw;
     left: 25vw;
-    right: 25vw;
     height: 10vh;
     position: fixed;
     font-size: 9vh;
@@ -40,7 +40,7 @@ body{
     border-top: 5vh solid transparent;
     border-bottom: 5vh solid transparent;
     border-right: 3vw solid aqua;
-    right: 75vw;
+    left: 22.009vw;
     padding: 0;
 }
 .scroller{
