@@ -1,7 +1,8 @@
 body{
     margin: 0;
-    background-image: url(../Img/Background-Waves2.svg);
-    background-size:cover;
+    background-image: url(../Img/Background-WavesV.png);
+    background-repeat: norepeat;
+    background-size: cover;
 }
 @font-face {
     font-family: Nunito;
@@ -29,8 +30,7 @@ body{
     height: 10vh;
     position: fixed;
     font-size: 9vh;
-    color: #a11515;
-    color: #a11515;
+    color: rgb(189, 21, 21);
 }
 .triangle{
     top: 5vh;
@@ -53,7 +53,7 @@ body{
     border-bottom: 5vh solid transparent;
     border-right: 3vw solid rgb(255, 255, 255);
     border-right: 3vw solid rgb(255, 255, 255);
-    left: 22.009vw;
+    left: 22.08vw;
     padding: 0;
 }
 .pfp{
@@ -62,10 +62,9 @@ body{
     height: 20%;
 }
 .subtitle{
-    color: #a11515;
-    color: #a11515;
+    color: rgb(189, 21, 21);
     font-family: nunito;
-    font-size: 5.5vh;
+    font-size: 5vh;
     position: absolute;
     top: 20vh;
     margin: 0;
@@ -73,6 +72,8 @@ body{
     border-radius: 1.5vh;
     left: 0.5vw;
     padding: 0;
+    width: 12vw;
+    text-align: center;
 }
 .para{
     position: absolute;
@@ -87,7 +88,7 @@ body{
 }
 
 pallete{
-    color: #a11515ff;
+    color: rgb(189, 21, 21);
     color: #ffffffff;
     color: #1a1a1aff;
     color: #0b0921ff;
@@ -96,47 +97,29 @@ pallete{
 footer{
     font-size: 5.5vh;
     position: absolute;
-    top: 20vh;
+    top: 250vh;
     margin: 0;
     background-color: rgb(255, 255, 255);
     border-radius: 1.5vh;
-    left: 0.5vw;
     padding: 0;
-}
-.para{
-    position: absolute;
-    top: 1000px;
-    height: 10vh;
     width: 100vw;
-    background-color: #ffffffff;
+    height: 30vh;
 }
 
 #footTitle{
-    color: #a11515;
+    color: rgb(189, 21, 21);
     font-size: 3vw;
     font-family: Alata;
     text-align: center;
     margin: 0;
-    color: white;
+}
+#topBtn{
+    display: block;
+    color: rgb(189, 21, 21);
+    text-align: center;
+    font-size: 3vh;
+    width: 100vw;
     font-family: Alata;
-    font-size: 2.5vh;
-    
-}
-
-#abtme {
-    top: 28vh;
-
-}
-
-pallete{
-    color: #a11515ff;
-    color: #ffffffff;
-    color: #1a1a1aff;
-    color: #0b0921ff;
-}
-#footTitle{
-    color: #a11515;
-    font-size: 3vw;
-    font-family: Alata;
+    text-decoration: underline;
     text-align: center;
 }
