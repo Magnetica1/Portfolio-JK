@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(../Img/Background-WavesV.png);
+    background-image: url(../Img/Background-WavesVB.png);
     background-repeat: norepeat;
     background-size: cover;
     overflow-x: hidden;
@@ -23,15 +23,15 @@ body{
     font-family: Nunito;
     font-size: 7.5vh;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
+    background-color: #000020;
     margin: 0;
     width: 50vw;
     left: 25vw;
     height: 10vh;
     position: fixed;
     font-size: 9vh;
-    color: rgb(189, 21, 21);
+    color: #220404;
+    
 }
 .triangle{
     top: 5vh;
@@ -40,8 +40,7 @@ body{
     height: 0px;
     border-top: 5vh solid transparent;
     border-bottom: 5vh solid transparent;
-    border-left: 3vw solid rgb(255, 255, 255);
-    border-left: 3vw solid rgb(255, 255, 255);
+    border-left: 3vw solid #000020;
     left: 75vw;
     padding: 0px;
 }
@@ -52,8 +51,7 @@ body{
     height: 0px;
     border-top: 5vh solid transparent;
     border-bottom: 5vh solid transparent;
-    border-right: 3vw solid rgb(255, 255, 255);
-    border-right: 3vw solid rgb(255, 255, 255);
+    border-right: 3vw solid #000020;
     left: 22.08vw;
     padding: 0;
 }
@@ -63,25 +61,28 @@ body{
     height: 20%;
 }
 .subtitle{
-    color: rgb(189, 21, 21);
+    color: #5a0c0c;
     font-family: nunito;
     font-size: 5vh;
     position: absolute;
     top: 20vh;
     margin: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #000020;
     border-radius: 1.5vh;
     left: 0.5vw;
     padding: 0;
-    width: 12vw;
+    width: 15vw;
     text-align: center;
+    left: 42.5vw;
+    right: 42.5vw;
+    margin: auto;
 }
 .para{
     position: absolute;
     margin: 0;
     color: white;
     font-family: Alata;
-    font-size: 2.5vh;
+    font-size: 3vh;
 }
 
 #abtme {
@@ -89,10 +90,11 @@ body{
 }
 
 pallete{
-    color: rgb(189, 21, 21);
+    color: #BD1515;
     color: #ffffffff;
     color: #1a1a1aff;
-    color: #0b0921ff;
+    color: #00000d;
+    color: #0a0000;
 }
 
 footer{
@@ -100,14 +102,14 @@ footer{
     position: absolute;
     top: 250vh;
     margin: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #000016;
     border-radius: 1.5vh;
     width: 100vw;
     height: 30vh;
 }
 
 #footTitle{
-    color: rgb(189, 21, 21);
+    color: rgb(92, 11, 11);
     font-size: 3vw;
     font-family: Alata;
     text-align: center;
@@ -115,7 +117,7 @@ footer{
 }
 #topBtn{
     display: block;
-    color: #0b0921ff;
+    color: #333333;
     text-align: center;
     font-size: 3vh;
     width: 100vw;
@@ -136,11 +138,11 @@ footer{
 }
 .contacText {
     font-size: 2.5vh;
-    color: rgb(155, 17, 17);
+    color: rgb(90, 12, 12);
 }
 .contentFooter{
     font-size: 2.5vh;
-    color: #1a1a1aff;
+    color: rgb(51, 51, 51);
 }
 .phoneNumber{
     padding-right: 22.5vw;
@@ -153,4 +155,8 @@ footer{
 
 .location{
     padding-right: 10vw;
+}
+#top{
+    top: 0;
+    position: fixed;
 }
