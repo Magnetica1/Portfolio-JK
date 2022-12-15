@@ -3,6 +3,7 @@ body{
     background-image: url(../Img/Background-WavesV.png);
     background-repeat: norepeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: Nunito;
@@ -101,7 +102,6 @@ footer{
     margin: 0;
     background-color: rgb(255, 255, 255);
     border-radius: 1.5vh;
-    padding: 0;
     width: 100vw;
     height: 30vh;
 }
@@ -115,11 +115,42 @@ footer{
 }
 #topBtn{
     display: block;
-    color: rgb(189, 21, 21);
+    color: #0b0921ff;
     text-align: center;
     font-size: 3vh;
     width: 100vw;
     font-family: Alata;
     text-decoration: underline;
     text-align: center;
+    font-weight: bolder;
+}
+.contactContent h3{
+    display: flex;
+    margin: 0;
+    font-family: Alata;
+    width: fit-content;
+}
+.contactContent{
+    display: flex;
+    align-items: center;
+}
+.contacText {
+    font-size: 2.5vh;
+    color: rgb(155, 17, 17);
+}
+.contentFooter{
+    font-size: 2.5vh;
+    color: #1a1a1aff;
+}
+.phoneNumber{
+    padding-right: 22.5vw;
+    padding-left: 11.5vw;
+}
+
+.email{
+    padding-right: 20vw;
+}
+
+.location{
+    padding-right: 10vw;
 }
