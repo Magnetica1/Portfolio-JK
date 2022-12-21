@@ -17,57 +17,55 @@ body{
     font-family: Alata;
     src: url(../Fonts/Alata-Regular.ttf);
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 .title{
-    top: 5vh;
+    top: 13vh;
     font-family: Nunito;
     font-size: 7.5vh;
     text-align: center;
-    background-color: #000020;
+    background-color: #000020b2;
     margin: 0;
     width: 50vw;
     left: 25vw;
     height: 10vh;
     position: fixed;
     font-size: 9vh;
-    color: #220404;
+    color: #5c0b0b;
     
 }
 .triangle{
-    top: 5vh;
-    position: absolute;
+    top: 13vh;
+    position: fixed;
     width: 0px;
     height: 0px;
     border-top: 5vh solid transparent;
     border-bottom: 5vh solid transparent;
-    border-left: 3vw solid #000020;
+    border-left: 3vw solid #000020b2;
     left: 75vw;
     padding: 0px;
 }
 .triangle2{
-    top: 5vh;
-    position: absolute;
+    top: 13vh;
+    position: fixed;
     width: 0px;
     height: 0px;
     border-top: 5vh solid transparent;
     border-bottom: 5vh solid transparent;
-    border-right: 3vw solid #000020;
+    border-right: 3vw solid #000020b2;
     left: 22.08vw;
     padding: 0;
-}
-.pfp{
-    border-radius: 50%;
-    width: 20%;
-    height: 20%;
 }
 .subtitle{
     color: #5a0c0c;
     font-family: nunito;
     font-size: 5vh;
     position: absolute;
-    top: 20vh;
+    top: 30vh;
     margin: 0;
-    background-color: #000020;
+    background-color: #00002091;
     border-radius: 1.5vh;
     left: 0.5vw;
     padding: 0;
@@ -86,7 +84,8 @@ body{
 }
 
 #abtme {
-    top: 28vh;
+    
+    top: 43vh;
 }
 
 pallete{
@@ -159,4 +158,79 @@ footer{
 #top{
     top: 0;
     position: fixed;
+}
+.highlight {
+    color: #af0606;
+    font-weight: bolder;
+}
+
+.topTriangle{
+    z-index: 10;
+    top: -10vh;
+    position: fixed;
+    width: 0px;
+    height: 0px;
+    border-top: 10vh solid transparent;
+    border-bottom: 10vh solid transparent;
+    border-left: 6vw solid #000031;
+    right: 0vw;
+    padding: 0px;
+}
+.topTriangle2{
+    z-index: 10;
+    top: -10vh;
+    position: fixed;
+    width: 0px;
+    height: 0px;
+    border-top: 10vh solid transparent;
+    border-bottom: 10vh solid transparent;
+    border-right: 6vw solid #000031;
+    left: 0vw;
+    padding: 0;
+}
+
+.rectMenu {
+    z-index: 10;
+    padding: 0;
+    top: 0px;
+    position: fixed;
+    background-color: #000031;
+    width: 87.5vw;
+    height: 10vh;
+    left: 6vw;
+}
+.menuItem{
+    z-index: 100;
+    position: fixed;
+    font-weight: bold;
+    z-index: 100;
+    font-family: Nunito;
+    font-size: 5vh;
+    list-style-type: none;
+    color: #5c0b0b;
+    display: inline;
+}
+ol li{
+    z-index: 100;
+    left: 6vw;
+    right: 6vw;
+}
+
+#abtme-item{
+    padding-left: 2.5vw;
+}
+#work-item{
+    padding-left: 20vw;
+}
+
+#educ-item{
+    padding-left: 40vw;
+}
+
+#skills-item{
+    padding-left: 60vw;
+}
+
+#projects-item{
+    padding-left: 75vw;
 }
