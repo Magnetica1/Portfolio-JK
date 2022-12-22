@@ -4,6 +4,7 @@ body{
     background-repeat: norepeat;
     background-size: cover;
     overflow-x: hidden;
+    
 }
 @font-face {
     font-family: Nunito;
@@ -63,7 +64,6 @@ html {
     font-family: nunito;
     font-size: 5vh;
     position: absolute;
-    top: 30vh;
     margin: 0;
     background-color: #00002091;
     border-radius: 1.5vh;
@@ -75,6 +75,9 @@ html {
     right: 42.5vw;
     margin: auto;
 }
+#abtmeTitle{
+    top: 30vh;
+}
 .para{
     position: absolute;
     margin: 0;
@@ -84,9 +87,9 @@ html {
 }
 
 #abtme {
-    
     top: 43vh;
 }
+
 
 pallete{
     color: #BD1515;
@@ -99,7 +102,7 @@ pallete{
 footer{
     font-size: 5.5vh;
     position: absolute;
-    top: 250vh;
+    top: 400vh;
     margin: 0;
     background-color: #000016;
     border-radius: 1.5vh;
@@ -165,6 +168,7 @@ footer{
 }
 
 .topTriangle{
+    backdrop-filter: blur(8px);
     z-index: 10;
     top: -10vh;
     position: fixed;
@@ -172,11 +176,12 @@ footer{
     height: 0px;
     border-top: 10vh solid transparent;
     border-bottom: 10vh solid transparent;
-    border-left: 6vw solid #000031;
+    border-left: 6vw solid rgba(0, 0, 49, 0.5);
     right: 0vw;
     padding: 0px;
 }
 .topTriangle2{
+    backdrop-filter: blur(8px);
     z-index: 10;
     top: -10vh;
     position: fixed;
@@ -184,9 +189,10 @@ footer{
     height: 0px;
     border-top: 10vh solid transparent;
     border-bottom: 10vh solid transparent;
-    border-right: 6vw solid #000031;
+    border-right: 6vw solid rgba(0, 0, 49, 0.5);
     left: 0vw;
     padding: 0;
+    clip-path: revert;
 }
 
 .rectMenu {
@@ -194,12 +200,12 @@ footer{
     padding: 0;
     top: 0px;
     position: fixed;
-    background-color: #000031;
     width: 87.5vw;
     height: 10vh;
     left: 6vw;
 }
 .menuItem{
+    text-decoration: none;
     z-index: 100;
     position: fixed;
     font-weight: bold;
@@ -220,6 +226,7 @@ ol li{
     left: 8.5vw; 
     width: 17.5vw;
 }
+
 #work-item{
     left: 26vw;
     width: 17.5vw;
@@ -257,3 +264,37 @@ ol li{
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+  .blur{
+    background-color: rgba(0, 0, 49, 0.5);
+    backdrop-filter: blur(8px);
+    width: 87.5vw;
+    height: 10vh;
+  }
+
+#skillsTitle{
+    top: 75vh;
+}
+
+table{
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 90vh;
+    font-family: Nunito;
+    border-collapse: collapse;
+    width: 99vw;
+}
+.empty{
+    border: 0px solid white;
+}
+th{
+    position: relative;
+    border: 0.2vw solid white;
+    padding: 2.5vw;
+    color: white;
+    top: -5vh;
+    font-size: 2vw;
+}
+.row1{
+    border: 1px solid white;
+}
