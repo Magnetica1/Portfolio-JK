@@ -217,20 +217,43 @@ ol li{
 }
 
 #abtme-item{
-    padding-left: 2.5vw;
+    left: 8.5vw; 
+    width: 17.5vw;
 }
 #work-item{
-    padding-left: 20vw;
+    left: 26vw;
+    width: 17.5vw;
 }
 
 #educ-item{
-    padding-left: 40vw;
+    left: 46vw;
+    width: 17.5vw;
 }
 
 #skills-item{
-    padding-left: 60vw;
+    left: 66vw;
+    width: 17.5vw;
 }
 
 #projects-item{
-    padding-left: 75vw;
-}
+    left: 81vw;
+    width: 17.5vw;
+} 
+
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width:13vw;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #005e8d;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
