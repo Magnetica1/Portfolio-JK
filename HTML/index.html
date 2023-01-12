@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jack Kilow</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../Img/favicon.png" type="image/x-icon">
     <script src="../JS/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript">
@@ -30,15 +31,92 @@
     <div class="triangle2 fade-scroll"></div>
 </header>
 
+<nav>
+<div class="topTriangle"></div>
+<div class="topTriangle2"></div>
+<div class="rectMenu">
+    <div class="blur"></div>
+</div>
+<ol>
+    <a href="#abtmeTitle" class="menuItem hover-underline-animation" id="abtme-item">About me</a>
+    <a href="#abtme" class="menuItem hover-underline-animation" id="work-item">Experience</a>
+    <a href="#abtme" class="menuItem hover-underline-animation" id="educ-item">Education</a>
+    <a href="#skillsTitle" class="menuItem hover-underline-animation" id="skills-item">Skills</a>
+    <a href="#abtme" class="menuItem hover-underline-animation" id="projects-item">Projects</a>
+</ol>
+</nav>
+
+
 <body>
-<h2 class="subtitle">About me</h2>
-<p id="abtme" class="para">Hi, I am a 14-year-old Canadian high school student. <br>
-    I have been coding since I was twelve, starting out with C# with the Unity framework, then learning HTML paired with CSS, and now I am trying to master JS <br>
-    I am currently in a school programme focused on digital arts and design, which is helping me become a better frontend developer.
+<h2 class="subtitle" id="abtmeTitle">About me</h2>
+<p id="abtme" class="para">Hi, I am a 14-year-old <code class="highlight">Canadian</code> high school student. <br>
+    I have been coding since I was twelve, starting out with <code class="highlight">C#</code> with the Unity framework, then learning <code class="highlight">HTML</code> paired with <code class="highlight">CSS</code>, and now I am trying to master <code class="highlight">JS</code> <br>
+    I am currently in a school programme focused on digital arts and design, which is helping me become a better <code class="highlight">frontend developer</code>.
 </p>
 
+<div id="skills">
+    <h2 class="subtitle" id="skillsTitle">Skills</h2>
+
+    <table class="table" id="tableSkills">
+        <tr class="row1">
+            <th class="skillsSub">Frameworks</th>
+            <th class="skillsSub">Libraries</th>
+            <th class="skillsSub">Languages</th>
+            <th class="skillsSub">Other Skills</th>
+        </tr>
+        
+        <tr class="row2">
+            <th class="bleble">Unity Framework</th>
+            <th class="bleble">Three.js</th>
+            <th class="bleble">Bash</th>
+            <th class="bleble">Github</th>
+        </tr>
+
+        <tr class="row3">
+            <th class="empty"></th>
+            <th class="empty"></th>
+            <th>Javascript</th>
+            <th>Linux</th>
+        </tr>
+
+        <tr class="row4">
+            <th class="empty"></th>
+            <th class="empty"></th>
+            <th>HTML</th>
+            <th>UI/UX</th>
+        </tr>
+        
+        <tr class="row5">
+            <th class="empty"></th>
+            <th class="empty"></th>
+            <th>CSS</th>
+            <th>Graphical Design</th>
+        </tr>
+        
+        <tr class="row6">
+            <th class="empty"></th>
+            <th class="empty"></th>
+            <th>C#</th>
+            <th>3D Modeling</th>
+        </tr>
+        <tr class="row7">
+            <th class="empty"></th>
+            <th class="empty"></th>
+            <th>Git</th>
+            <th>Pixel art</th>
+        </tr>
+        <tr class="row8">
+            <th class="empty"></th>
+            <th class="empty"></th>
+            <th>Node.js</th>
+            <th class="empty"></th>
+        </tr>
+    </table>
+</div>
 
 </body>
+
+
 
 <footer>
 <a href="#top" id="topBtn">Back to Top</a>
